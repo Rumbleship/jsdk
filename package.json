@@ -1,0 +1,15 @@
+{
+  "name": "jsdk",
+  "version": "0.1.0",
+  "description": "A JavaScript SDK for interacting with the Rumbleship API",
+  "author": "Adam Hemphill <adam@rumbleship.com> (https://rumbleship.com)",
+  "private": true,
+  "license": "UNLICENSED",
+  "main": "./src/index.js",
+  "dependencies": {
+    "axios": "^0.17.1"
+  },
+  "devDependencies": {
+    "prettier": "1.10.2"
+  }
+}
