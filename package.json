@@ -7,9 +7,13 @@
   "license": "UNLICENSED",
   "main": "./src/index.js",
   "dependencies": {
-    "axios": "^0.17.1"
+    "axios": "^0.18.0"
   },
   "devDependencies": {
+    "ava": "1.0.0-beta.4",
     "prettier": "1.10.2"
+  },
+  "scripts": {
+    "test": "NODE_PATH=. ava"
   }
 }
