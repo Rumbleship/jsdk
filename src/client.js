@@ -28,10 +28,10 @@ class Client {
   async loginAdmin(admin) {
     const authedResponse = await this.client.post('login', { admin });
     this.client.defaults.headers.Authorization = authedResponse.headers.authorization;
-    return authedResponse.status;
+    return authedResponse;
   }
 
-  async getPurcaseOrder(hashid) {
+  async getPurchaseOrder(hashid) {
     return this.client.get(`purchase-orders/${hashid}`).then(res => res.data);
   }
 }
